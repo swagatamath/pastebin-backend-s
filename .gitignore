@@ -40,6 +40,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+package-lock.json
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -81,6 +82,9 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
+
+# Vercel
+.vercel/
 
 # Gatsby files
 .cache/
