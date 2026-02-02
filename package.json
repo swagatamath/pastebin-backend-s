@@ -2,14 +2,20 @@
   "name": "pastebin-lite",
   "version": "1.0.0",
   "description": "A lightweight Pastebin-like application built with Node.js and PostgreSQL.",
-  "main": "api/index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node api/index.js"
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod",
+    "start": "vercel dev"
   },
   "dependencies": {
+    "cors": "^2.8.6",
     "dotenv": "^17.2.3",
     "express": "^4.19.2",
     "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.2.29"
   }
 }
