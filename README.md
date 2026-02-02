@@ -103,6 +103,8 @@ Set these in your Vercel dashboard:
 └── package.json
 ```
 
+
+
 ## Database Schema
 
 The application uses a single `pastes` table. The schema is automatically created when the application starts.
